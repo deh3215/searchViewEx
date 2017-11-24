@@ -55,11 +55,6 @@ public class CustomAdapter extends BaseAdapter implements Filterable {
     }
 
     @Override
-    public CharSequence[] getAutofillOptions() {
-        return new CharSequence[0];
-    }
-
-    @Override
     public Filter getFilter() {
         Filter filter= new Filter() {
             @Override
